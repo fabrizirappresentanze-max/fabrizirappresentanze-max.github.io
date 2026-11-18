@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FABRIZI APP</title>
+<style>
+  :root { --testo: #1f2933; --tenue: #52606d; --sfondo: #ffffff; --riquadro: #f5f7fa; --accento: #a3122a; }
+  @media (prefers-color-scheme: dark) { :root { --testo: #e4e7eb; --tenue: #9aa5b1; --sfondo: #111418; --riquadro: #1c2128; --accento: #ff6b81; } }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--testo); background: var(--sfondo); line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .sotto { color: var(--tenue); margin: 0 0 32px; }
+  .riquadro { background: var(--riquadro); border-radius: 12px; padding: 20px; margin: 20px 0; }
+  a { color: var(--accento); }
+  footer { margin-top: 40px; color: var(--tenue); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>FABRIZI APP</h1>
+  <p class="sotto">Gestionale personale di Fabrizi Alessandro Rappresentanze, agente di commercio</p>
+
+  <div class="riquadro">
+    <p>FABRIZI APP è il programma che Fabrizi Alessandro usa per il proprio lavoro di agente di commercio:
+      clienti, visite, ordini, offerte, cataloghi e listini dei mandanti.</p>
+    <p>Il programma gira sul computer dell'agente e ha un'app per il suo telefono. Per tenerli allineati usa una
+      cartella sul <strong>Google Drive dell'agente stesso</strong>: il computer vi copia cataloghi e listini, il telefono
+      vi lascia le modifiche fatte fuori ufficio (ordini, visite, note).</p>
+  </div>
+
+  <div class="riquadro">
+    <p><strong>Uso privato.</strong> L'app non è in vendita e non è distribuita al pubblico: la usa solo il suo autore,
+      con il proprio account Google.</p>
+    <p>Accede soltanto ai file che crea lei stessa su Google Drive (permesso <code>drive.file</code>), non agli altri file
+      dell'account.</p>
+  </div>
+
+  <p><a href="privacy.html">Informativa sulla privacy</a></p>
+
+  <footer>Contatti: <a href="mailto:fabrizirappresentanze@gmail.com">fabrizirappresentanze@gmail.com</a></footer>
+</main>
+</body>
+</html>
